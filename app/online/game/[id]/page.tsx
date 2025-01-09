@@ -3,8 +3,8 @@
 import { useEffect, useState } from 'react'
 import { useParams } from 'next/navigation'
 import { useQuantumGoGomoku } from '../../../../hooks/useQuantumGoGomoku'
-import { Board } from '../../../components/Board'
-import { StoneSelector } from '../../../components/StoneSelector'
+import { Board } from '@/components/Board'
+import { StoneSelector } from '@/components/StoneSelector'
 import { supabase } from '../../../../lib/supabaseClient'
 import Link from 'next/link'
 

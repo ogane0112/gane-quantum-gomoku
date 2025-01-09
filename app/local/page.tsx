@@ -2,8 +2,8 @@
 
 import React from 'react'
 import { useQuantumGoGomoku } from '../../hooks/useQuantumGoGomoku'
-import { Board } from '../components/Board'
-import { StoneSelector } from '../components/StoneSelector'
+import { Board } from '@/components/Board'
+import { StoneSelector } from '@/components/StoneSelector'
 import Link from 'next/link'
 
 export default function LocalGame() {
